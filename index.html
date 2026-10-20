@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rumah Teres 1 Tingkat RM249k (Nego) | Desa Lahat Sri Wang, Ipoh</title>
+    <title>Rumah Teres 1 Tingkat RM249,000 | Desa Lahat Sri Wang, Ipoh</title>
+    <meta name="description" content="Rumah teres setingkat di Desa Lahat Sri Wang, Ipoh. 3 bilik tidur, 2 bilik air, tanah 1,400 kps. Harga tawaran RM249,000 boleh dirunding. Hubungi Azrul.">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -14,12 +15,14 @@
                         primary: {
                             50: '#f0fdf4',
                             100: '#dcfce7',
+                            500: '#22c55e',
                             600: '#16a34a',
                             700: '#15803d',
                             800: '#166534',
                             900: '#14532d'
                         },
                         amberGold: {
+                            400: '#fbbf24',
                             500: '#f59e0b',
                             600: '#d97706'
                         }
@@ -34,11 +37,11 @@
     <!-- Google Font Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
+            background-color: #0b1120;
             color: #f8fafc;
         }
         /* Custom smooth scrollbar */
@@ -46,7 +49,7 @@
             width: 8px;
         }
         ::-webkit-scrollbar-track {
-            background: #0f172a;
+            background: #0b1120;
         }
         ::-webkit-scrollbar-thumb {
             background: #334155;
@@ -55,14 +58,21 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #475569;
         }
+        .gallery-active-thumb {
+            outline: 3px solid #10b981;
+            outline-offset: 2px;
+        }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased selection:bg-emerald-500 selection:text-white pb-20 md:pb-0">
+    <style>
+      :root{color-scheme:dark} html{scroll-padding-top:5.5rem} body{line-height:1.65} section{scroll-margin-top:5rem} .price-highlight{background:linear-gradient(135deg,rgba(6,78,59,.42),rgba(15,23,42,.96));border:1px solid rgba(52,211,153,.38);box-shadow:0 18px 55px rgba(0,0,0,.22)} .price-number{font-size:clamp(2.25rem,5vw,3.5rem);letter-spacing:-.055em;line-height:1.08} .gallery-item img{transition:transform .35s ease} .gallery-item:hover img{transform:scale(1.035)} button,a{ -webkit-tap-highlight-color:transparent } :focus-visible{outline:3px solid #6ee7b7;outline-offset:3px} @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+    </style>
 
     <!-- Top Announcement Bar -->
-    <div class="bg-gradient-to-r from-emerald-700 via-teal-700 to-emerald-800 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
+    <div class="bg-gradient-to-r from-emerald-800 via-teal-700 to-emerald-900 text-white text-xs sm:text-sm py-2.5 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
         <span class="inline-block w-2 h-2 rounded-full bg-emerald-300 animate-ping"></span>
-        <span>Unit Hot Demand! Rumah Teres 1 Tingkat di Lahat, Ipoh • Hanya <strong>RM249,000 (Boleh Runding / Nego)</strong> • Non Bumi Lot</span>
+        <span>Unit Istimewa: <strong>Menghadap Kawasan Lapang</strong> • RM249,000 boleh dirunding • Non-Bumi Lot • Pajakan</span>
     </div>
 
     <!-- Main Navigation Bar -->
@@ -76,21 +86,23 @@
                 </div>
                 <div>
                     <span class="text-lg font-bold tracking-tight text-white block leading-tight">Desa Lahat Sri Wang</span>
-                    <span class="text-xs text-emerald-400 font-medium tracking-wide">31500 IPOH, PERAK</span>
+                    <span class="text-xs text-emerald-400 font-medium tracking-wide">31500 IPOH, PERAK DARUL RIDZUAN</span>
                 </div>
             </div>
 
             <!-- Navigation Links for Desktop -->
             <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-300">
+                <a href="#galeri" class="hover:text-emerald-400 transition-colors">Galeri Rumah</a>
+                <a href="#kelebihan" class="hover:text-emerald-400 transition-colors">Kelebihan Unit</a>
                 <a href="#spesifikasi" class="hover:text-emerald-400 transition-colors">Spesifikasi</a>
                 <a href="#kalkulator" class="hover:text-emerald-400 transition-colors">Kiraan Ansuran</a>
-                <a href="#lokasi" class="hover:text-emerald-400 transition-colors">Lokasi & Akses</a>
+                <a href="#lokasi" class="hover:text-emerald-400 transition-colors">Lokasi & Peta</a>
                 <a href="#faq" class="hover:text-emerald-400 transition-colors">Soalan Lazim</a>
             </nav>
 
             <!-- Direct CTA Button -->
             <div class="flex items-center gap-3">
-                <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20berminat%20dengan%20Rumah%20Teres%201%20Tingkat%20di%20Desa%20Lahat%20Sri%20Wang%20RM249k%20nego.%20Boleh%20saya%20dapatkan%20maklumat%20lanjut?" 
+                <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20berminat%20dengan%20Rumah%20Teres%201%20Tingkat%20No%2021%20Desa%20Lahat%20Sri%20Wang%20(RM249k%20nego)%20yang%20menghadap%20kawasan%20lapang.%20Boleh%20bantu%20saya%20untuk%20maklumat%20lanjut?" 
                    target="_blank"
                    class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-emerald-500/25 active:scale-95">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -105,76 +117,85 @@
 
     <!-- Hero Section -->
     <section class="relative overflow-hidden pt-8 pb-16 lg:pt-12 lg:pb-24 border-b border-slate-850">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-900/20 via-slate-950 to-slate-950 pointer-events-none"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-900/25 via-slate-950 to-slate-950 pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                 
                 <!-- Left Column: Copywriting & Key Highlights -->
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
-                        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-                        Eksklusif Untuk Dijual • Non Bumi Lot • Baki 99 Tahun
+                    <!-- Feature Badges -->
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+                            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                            Berhadapan Kawasan Lapang
+                        </span>
+                        <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-slate-300 text-xs font-semibold">
+                            Komuniti Mesra & Tenang
+                        </span>
+                        <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold">
+                            Non Bumi Lot • Baki 99 Tahun
+                        </span>
                     </div>
 
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                        Rumah Teres 1 Tingkat di <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Desa Lahat Sri Wang</span>, Ipoh
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+                        Rumah Teres 1 Tingkat di <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-200">Desa Lahat Sri Wang</span>, Ipoh
                     </h1>
 
                     <p class="text-base sm:text-lg text-slate-300 font-normal leading-relaxed">
-                        Lokasi sangat strategik! Boleh jalan kaki ke sekolah, masjid, dan kemudahan di Bandar Baru Lahat. Hanya 10 minit pemanduan ke Menglembu dan Pengkalan Station 18 Ipoh (AEON, Tesco/Lotus's, McDonald's & Bank).
+                        Rumah teres setingkat dengan <strong class="text-emerald-300 font-semibold">pandangan menghadap kawasan lapang</strong>, susun atur praktikal dan kemudahan harian sekitar Bandar Baru Lahat. Terokai maklumat dan galeri foto rumah ini secara maya untuk kemudahan anda.
                     </p>
 
                     <!-- Price Card Component -->
-                    <div class="p-5 rounded-2xl bg-gradient-to-r from-slate-900/90 to-slate-850/90 border border-emerald-500/30 backdrop-blur-sm shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div class="price-highlight p-5 sm:p-6 rounded-2xl backdrop-blur-sm flex flex-col sm:flex-row sm:items-center justify-between gap-5">
                         <div>
-                            <span class="text-xs uppercase font-medium tracking-wider text-slate-400 block">Harga Tawaran (Boleh Runding)</span>
+                            <span class="text-xs uppercase font-medium tracking-wider text-slate-400 block">HARGA TAWARAN • BOLEH DIRUNDING</span>
                             <div class="flex items-baseline gap-2 mt-1">
-                                <span class="text-3xl sm:text-4xl font-black text-emerald-400">RM 249,000</span>
-                                <span class="text-xs font-semibold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/30">Nego</span>
+                                <span class="price-number font-black text-emerald-300">RM249,000</span>
+                                <span class="text-xs sm:text-sm font-bold text-amber-200 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/30">Boleh Runding</span>
                             </div>
                             <span class="text-xs text-emerald-300 font-medium flex items-center gap-1 mt-1">
                                 <svg class="w-4 h-4 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
-                                Anggaran ansuran serendah <strong>~RM 1,095 / bulan</strong>
+                                Anggaran ansuran bulanan dari <strong>RM1,095*</strong>
                             </span>
                         </div>
                         <div class="sm:text-right border-t sm:border-t-0 sm:border-l border-slate-800 pt-3 sm:pt-0 sm:pl-6">
                             <span class="inline-block px-2.5 py-1 bg-emerald-500/20 text-emerald-300 rounded-lg text-xs font-semibold">
-                                Non Bumi Lot (Terbuka)
+                                Non-Bumi Lot
                             </span>
                             <p class="text-xs text-slate-300 font-medium mt-1.5">
-                                <span class="text-emerald-400 font-bold">Servis A-Z:</span> Pinjaman Bank & LPPSA, urusan dokumentasi serta peguam panel (guaman) diuruskan sepenuhnya.
+                                <span class="text-emerald-400 font-bold">Bantuan:</span> Semakan awal pembiayaan Bank / LPPSA dan panduan proses pembelian.
                             </p>
                         </div>
                     </div>
 
                     <!-- Quick Spec Badges -->
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center">
+                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-emerald-500/40 transition">
                             <span class="text-emerald-400 block font-bold text-lg">3 Bilik</span>
                             <span class="text-xs text-slate-400">Bilik Tidur</span>
                         </div>
-                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center">
+                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-emerald-500/40 transition">
                             <span class="text-emerald-400 block font-bold text-lg">2 Bilik Air</span>
                             <span class="text-xs text-slate-400">Bilik Mandi / Tandas</span>
                         </div>
-                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center">
+                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-emerald-500/40 transition">
                             <span class="text-emerald-400 block font-bold text-lg">1,400 kps</span>
-                            <span class="text-xs text-slate-400">Keluasan Tanah</span>
+                            <span class="text-xs text-slate-400">Saiz Tanah (20' x 70')</span>
                         </div>
-                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center">
-                            <span class="text-emerald-400 block font-bold text-lg">99 Tahun</span>
-                            <span class="text-xs text-slate-400">Baki Tempoh Pajakan</span>
+                        <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-emerald-500/40 transition">
+                            <span class="text-emerald-400 block font-bold text-lg">Facing Open</span>
+                            <span class="text-xs text-slate-400">Kawasan Lapang</span>
                         </div>
                     </div>
 
                     <!-- Hero CTAs -->
                     <div class="flex flex-col sm:flex-row gap-3 pt-2">
-                        <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20ingin%20set%20temujanji%20viewing%20rumah%201%20Tingkat%20No%2021%20Lahat%20Sri%20Wang%2012%20(RM249k%20nego)." 
+                        <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20ingin%20tahu%20lebih%20lanjut%20tentang%20rumah%201%20Tingkat%20No%2021%20Lahat%20Sri%20Wang%2012%20(RM249k%20nego)%20yang%20menghadap%20kawasan%20lapang." 
                            target="_blank"
                            class="flex-1 inline-flex justify-center items-center gap-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3.5 px-6 rounded-xl transition duration-200 shadow-lg shadow-emerald-600/30">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
-                            <span>Tempah Sesi Viewing (Azrul)</span>
+                            <span>Hubungi Untuk Maklumat Lanjut</span>
                         </a>
                         <a href="tel:0192704437"
                            class="inline-flex justify-center items-center gap-2 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold py-3.5 px-6 rounded-xl transition duration-200">
@@ -188,23 +209,21 @@
 
                 <!-- Right Column: Visual Presentation Card with Real Photo Reference -->
                 <div class="lg:col-span-5">
-                    <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-3 shadow-2xl overflow-hidden group">
+                    <div class="relative bg-slate-900 border border-slate-800 rounded-3xl p-3.5 shadow-2xl overflow-hidden group">
                         
                         <!-- Property Image Container with Switcher -->
                         <div class="relative rounded-2xl overflow-hidden bg-slate-950 aspect-[4/3] border border-slate-800">
                             <!-- Main Active Photo Display -->
                             <img id="mainHouseImage"
-                                 src="21Lahat.jpeg" 
-                                 alt="Rumah Teres 1 Tingkat No 21 Desa Lahat Sri Wang Ipoh" 
+                                 src="Pandangan_Depan.jpeg" 
+                                 alt="Rumah Teres 1 Tingkat No 21 Desa Lahat Sri Wang Ipoh Berhadapan Kawasan Lapang" 
                                  class="w-full h-full object-cover transition-all duration-300"
-                                 onerror="this.onerror=null; this.src='https://placehold.co/800x600/1e293b/10b981?text=No.+21+Desa+Lahat+Sri+Wang';">
+                                 onerror="this.onerror=null; this.src='21Lahat.jpeg';">
                             
                             <!-- Badges on Image -->
                             <div class="absolute top-3 left-3 bg-slate-900/85 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-white border border-slate-700 flex items-center gap-1.5 shadow">
-                                <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
-                                </svg>
-                                <span id="imageBadgeText">Foto Sebenar: Hadapan Rumah</span>
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                <span id="imageBadgeText">Foto Unit Sebenar: Fasad Hadapan No. 21</span>
                             </div>
 
                             <div class="absolute bottom-3 right-3 bg-emerald-600/90 backdrop-blur-md px-3 py-1 rounded-lg text-xs font-bold text-white shadow">
@@ -212,49 +231,46 @@
                             </div>
                         </div>
 
-                        <!-- Thumbnail Gallery Switcher -->
-                        <div class="grid grid-cols-2 gap-2 mt-3">
+                        <!-- Quick Thumbnails Switcher -->
+                        <div class="grid grid-cols-4 gap-2 mt-3">
                             <button type="button" 
-                                    onclick="switchHouseImage('21Lahat.jpeg', 'Foto: Projek Asal Rumah', this)"
-                                    class="thumb-btn active relative rounded-xl overflow-hidden border-2 border-emerald-500 p-0.5 bg-slate-950 text-left transition focus:outline-none">
-                                <div class="flex items-center gap-2 p-1.5">
-                                    <img src="21Lahat.jpeg" alt="Fasad Hadapan" class="w-12 h-10 object-cover rounded-lg" onerror="this.src='https://placehold.co/100x80/1e293b/10b981?text=Hadapan';">
-                                    <div class="overflow-hidden">
-                                        <p class="text-[11px] font-bold text-emerald-300 truncate">Fasad Hadapan</p>
-                                        <p class="text-[9px] text-slate-400 truncate">Gambar Asal Projek</p>
-                                    </div>
-                                </div>
+                                    onclick="switchHouseImage('Pandangan_Depan.jpeg', 'Foto Unit Sebenar: Fasad Hadapan No. 21', this)"
+                                    class="thumb-btn hero-thumb active rounded-lg overflow-hidden border-2 border-emerald-500 bg-slate-950 aspect-video focus:outline-none transition">
+                                <img src="Pandangan_Depan.jpeg" alt="Hadapan" class="w-full h-full object-cover" onerror="this.src='21Lahat.jpeg';">
                             </button>
-
                             <button type="button" 
-                                    onclick="switchHouseImage('21Lahat1.jpeg', 'Foto Sebenar: Kejiranan', this)"
-                                    class="thumb-btn relative rounded-xl overflow-hidden border-2 border-slate-800 hover:border-slate-700 p-0.5 bg-slate-950 text-left transition focus:outline-none">
-                                <div class="flex items-center gap-2 p-1.5">
-                                    <img src="21Lahat1.jpeg" alt="Pandangan Hadapan" class="w-12 h-10 object-cover rounded-lg" onerror="this.src='https://placehold.co/100x80/1e293b/10b981?text=Jalan';">
-                                    <div class="overflow-hidden">
-                                        <p class="text-[11px] font-bold text-slate-200 truncate">Pandangan Hadapan</p>
-                                        <p class="text-[9px] text-slate-400 truncate">Akses Hadapan Rumah</p>
-                                    </div>
-                                </div>
+                                    onclick="switchHouseImage('Ruang_Utama.jpeg', 'Ruang Tamu & Ruang Makan Lapang', this)"
+                                    class="thumb-btn hero-thumb rounded-lg overflow-hidden border-2 border-slate-800 hover:border-slate-700 bg-slate-950 aspect-video focus:outline-none transition">
+                                <img src="Ruang_Utama.jpeg" alt="Ruang Utama" class="w-full h-full object-cover">
+                            </button>
+                            <button type="button" 
+                                    onclick="switchHouseImage('Pandangan_Masuk.jpeg', 'Anjung Kereta (Porch) & Pintu Masuk', this)"
+                                    class="thumb-btn hero-thumb rounded-lg overflow-hidden border-2 border-slate-800 hover:border-slate-700 bg-slate-950 aspect-video focus:outline-none transition">
+                                <img src="Pandangan_Masuk.jpeg" alt="Porch Masuk" class="w-full h-full object-cover">
+                            </button>
+                            <button type="button" 
+                                    onclick="switchHouseImage('Ruang_Dapur.jpeg', 'Ruang Dapur & Table Top Sinki', this)"
+                                    class="thumb-btn hero-thumb rounded-lg overflow-hidden border-2 border-slate-800 hover:border-slate-700 bg-slate-950 aspect-video focus:outline-none transition">
+                                <img src="Ruang_Dapur.jpeg" alt="Dapur" class="w-full h-full object-cover">
                             </button>
                         </div>
 
-                        <!-- Address Info Plate -->
+                        <!-- Address Info Plate with Darul Ridzuan -->
                         <div class="mt-3 p-4 rounded-xl bg-slate-950/80 border border-slate-800 space-y-2">
                             <div class="flex items-start gap-2.5">
                                 <div class="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 shrink-0">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                                 </div>
                                 <div>
-                                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Alamat Hartanah:</p>
-                                    <p class="text-sm font-bold text-white mt-0.5">21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak</p>
+                                    <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Alamat Lengkap Hartanah:</p>
+                                    <p class="text-sm font-bold text-white mt-0.5">21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak Darul Ridzuan</p>
                                 </div>
                             </div>
                             
                             <div class="pt-2 border-t border-slate-800 flex items-center justify-between text-xs text-slate-300">
                                 <span class="flex items-center gap-1 text-emerald-400 font-medium">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                                    Non Bumi Lot
+                                    Menghadap Kawasan Lapang
                                 </span>
                                 <span>Pajakan: Baki 99 Tahun (Leasehold)</span>
                             </div>
@@ -267,8 +283,222 @@
         </div>
     </section>
 
+    <!-- Kelebihan Eksklusif -->
+    <section id="kelebihan" class="py-14 sm:py-16 bg-slate-900/80 border-b border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-9">
+          <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Kelebihan Eksklusif</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-2">Sebab Utama Unit Ini Menjadi Pilihan</h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-3">Kenal pasti keistimewaan kediaman ini yang direka untuk keselesaan dan privasi keluarga anda.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+          <article class="p-6 rounded-2xl bg-slate-950 border border-slate-800 hover:border-emerald-500/50 transition">
+            <div class="text-emerald-400 text-2xl mb-3">⌂</div><h3 class="font-bold text-white text-lg">Menghadap Kawasan Lapang</h3>
+            <p class="text-sm text-slate-400 mt-2">Nikmati pengudaraan yang lebih segar, laluan parkir yang lebih mudah, dan privasi maksimum tanpa gangguan rumah berhadapan.</p>
+          </article>
+          <article class="p-6 rounded-2xl bg-slate-950 border border-slate-800 hover:border-emerald-500/50 transition">
+            <div class="text-emerald-400 text-2xl mb-3">▦</div><h3 class="font-bold text-white text-lg">Ruang Untuk Keluarga</h3>
+            <p class="text-sm text-slate-400 mt-2">Rekaan dalaman yang praktikal dengan 3 bilik tidur dan 2 bilik air, memberikan keselesaan optimum buat seisi keluarga.</p>
+          </article>
+          <article class="p-6 rounded-2xl bg-slate-950 border border-slate-800 hover:border-emerald-500/50 transition">
+            <div class="text-emerald-400 text-2xl mb-3">⌖</div><h3 class="font-bold text-white text-lg">Kemudahan Berdekatan</h3>
+            <p class="text-sm text-slate-400 mt-2">Lokasi strategik yang dikelilingi sekolah, masjid, dan pelbagai kemudahan harian di Bandar Baru Lahat untuk kelancaran rutin anda.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comprehensive Real Photo Gallery Section -->
+    <section id="galeri" class="py-16 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Galeri Foto Sebenar Unit</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Lihat Setiap Sudut Rumah No. 21</h2>
+                <p class="text-slate-400 text-sm mt-2">Lihat foto bahagian hadapan, anjung, ruang tamu, bilik tidur, dapur dan bilik air.</p>
+            </div>
+
+            <!-- Category Filter Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8">
+                <button type="button" onclick="filterGallery('semua', this)" class="gallery-tab-btn active px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-600 text-white transition">Semua Foto</button>
+                <button type="button" onclick="filterGallery('luaran', this)" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition">Luaran & Anjung</button>
+                <button type="button" onclick="filterGallery('dalaman', this)" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition">Ruang Tamu & Bilik</button>
+                <button type="button" onclick="filterGallery('servis', this)" class="gallery-tab-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 transition">Dapur & Bilik Air</button>
+            </div>
+
+            <!-- Gallery Grid with Smooth Popover Modal Trigger -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                
+                <!-- 1: Pandangan Depan (Hadapan Unit Sebenar) -->
+                <div class="gallery-item luaran group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Pandangan_Depan.jpeg', 'Fasad Hadapan Unit No. 21 dengan Pagar & Banner Jualan')">
+                        <img src="Pandangan_Depan.jpeg" alt="Pandangan Hadapan Unit 21" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='21Lahat.jpeg';">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Fasad Hadapan</span>
+                            <span>No. 21</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Pandangan Depan & Pagar Rumah</h4>
+                        <p class="text-xs text-slate-400 mt-1">Pintu pagar moden, tiang nombor lot 21 serta banner jualan rasmi.</p>
+                    </div>
+                </div>
+
+                <!-- 2: Pandangan Masuk & Porch -->
+                <div class="gallery-item luaran group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Pandangan_Masuk.jpeg', 'Anjung Kereta (Porch) & Pintu Kaca Gelongsor')">
+                        <img src="Pandangan_Masuk.jpeg" alt="Anjung Kereta Masuk" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Anjung Kereta</span>
+                            <span>Porch Luas</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Lantai Porch & Pintu Kaca Hadapan</h4>
+                        <p class="text-xs text-slate-400 mt-1">Lantai konkrit kemas, siling berbumbung dan pintu gelongsor kaca bertinted.</p>
+                    </div>
+                </div>
+
+                <!-- 3: Ruang Utama Memanjang -->
+                <div class="gallery-item dalaman group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Ruang_Utama.jpeg', 'Ruang Tamu & Ruang Makan Terbuka')">
+                        <img src="Ruang_Utama1.jpeg" alt="Ruang Utama Memanjang" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Dalaman Rumah</span>
+                            <span>Open Concept</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Ruang Tamu Memanjang Menghala Dapur</h4>
+                        <p class="text-xs text-slate-400 mt-1">Lantai jubin seramik penuh, dinding dicat putih bersih & kipas siling terpasang.</p>
+                    </div>
+                </div>
+
+                <!-- 4: Ruang Utama 1 (Menghala ke Luar) -->
+                <div class="gallery-item dalaman group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Ruang_Utama.jpeg', 'Ruang Tamu Pandangan Menghala ke Luar')">
+                        <img src="Ruang_Utama.jpeg" alt="Ruang Tamu Menghala Keluar" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Pencahayaan Luas</span>
+                            <span>Facing Open</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Ruang Tamu Pandangan Ke Anjung</h4>
+                        <p class="text-xs text-slate-400 mt-1">Pemandangan terus ke kawasan hadapan yang lapang tanpa sekatan pandangan.</p>
+                    </div>
+                </div>
+
+                <!-- 5: Ruang Tamu Koridor Bilik -->
+                <div class="gallery-item dalaman group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Ruang_Tamu.jpeg', 'Laluan Akses Bilik Tidur')">
+                        <img src="Ruang_Tamu.jpeg" alt="Laluan Akses Bilik" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Susun Atur Bilik</span>
+                            <span>3 Bilik Tidur</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Laluan Masuk Ke Bilik-Bilik Tidur</h4>
+                        <p class="text-xs text-slate-400 mt-1">Pintu bilik berkualiti kemas, susunan bilik tidur yang praktikal untuk keluarga.</p>
+                    </div>
+                </div>
+
+                <!-- 6: Ruang Bilik Utama -->
+                <div class="gallery-item dalaman group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Ruang_Bilik_Utama.jpeg', 'Bilik Tidur dengan Tingkap & Kipas Siling')">
+                        <img src="Ruang_Bilik_Utama.jpeg" alt="Ruang Bilik Utama" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Bilik Selesa</span>
+                            <span>Tingkap Luar</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Bilik Tidur Berhawa Segar</h4>
+                        <p class="text-xs text-slate-400 mt-1">Dilengkapi tingkap aluminium moden dengan pemandangan kehijauan luar.</p>
+                    </div>
+                </div>
+
+                <!-- 7: Ruang Dapur & Table Top -->
+                <div class="gallery-item servis group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Ruang_Dapur.jpeg', 'Ruang Dapur bersama Table Top & Sinki Berkembar')">
+                        <img src="Ruang_Dapur.jpeg" alt="Ruang Dapur Bersinki" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Dapur Siap Sedia</span>
+                            <span>Table Top Jubin</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Ruang Dapur & Sinki Dua Mangkuk</h4>
+                        <p class="text-xs text-slate-400 mt-1">Sinki keluli tahan karat berkembar, jubin dinding percikan & pintu keluar belakang.</p>
+                    </div>
+                </div>
+
+                <!-- 8: Tandas Bilik Utama -->
+                <div class="gallery-item servis group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Tandas_Bilik_Utama.jpeg', 'Tandas & Bilik Mandi Bilik Utama')">
+                        <img src="Tandas_Bilik_Utama.jpeg" alt="Tandas Bilik Utama" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Bilik Air 1</span>
+                            <span>Jubin Dinding Penuh</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Bilik Air & Mandian Utama</h4>
+                        <p class="text-xs text-slate-400 mt-1">Mangkuk tandas duduk, kepala pancuran mandian (shower), sinki dan jubin bercorak moden.</p>
+                    </div>
+                </div>
+
+                <!-- 9: Tandas Belakang / Kedua -->
+                <div class="gallery-item servis group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Tandas_Belakang.jpeg', 'Bilik Air & Tandas Kedua')">
+                        <img src="Tandas_Belakang.jpeg" alt="Bilik Air Kedua" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Bilik Air 2</span>
+                            <span>Bersih & Praktikal</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Bilik Air & Tandas Tetamu</h4>
+                        <p class="text-xs text-slate-400 mt-1">Jubin dua tona, kelengkapan sanitari lengkap dan tingkap pengudaraan semula jadi.</p>
+                    </div>
+                </div>
+
+                <!-- 10: Pandangan Belakang (Halaman Dapur) -->
+                <div class="gallery-item servis group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('Pandangan_Blkg.jpeg', 'Halaman Belakang & Pintu Dapur')">
+                        <img src="Pandangan_Blkg.jpeg" alt="Halaman Belakang" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Ruang Belakang</span>
+                            <span>Ruang Servis</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Ruang Halaman Belakang Rumah</h4>
+                        <p class="text-xs text-slate-400 mt-1">Sesuai untuk tempat jemuran baju, cucian atau ruang penyimpanan luar.</p>
+                    </div>
+                </div>
+
+                <!-- 12: Fasad Asal Projek -->
+                <div class="gallery-item luaran group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500/50 transition duration-300">
+                    <div class="aspect-[4/3] overflow-hidden bg-slate-950 cursor-pointer" onclick="openLightbox('21Lahat.jpeg', 'Reka Bentuk Asal Projek Perumahan')">
+                        <img src="21Lahat.jpeg" alt="Fasad Asal Projek" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+                            <span class="text-emerald-400 font-semibold">Reka Bentuk</span>
+                            <span>Desa Lahat Sri Wang</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white">Visual Projek Asal Perumahan</h4>
+                        <p class="text-xs text-slate-400 mt-1">Konsep moden kontemporari dengan gabungan bumbung seramik yang tahan lasak.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- One-Stop Hassle-Free Service Section (Dokumentasi & Guaman) -->
-    <section class="py-12 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-b border-slate-800">
+    <section class="py-14 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-10">
                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
@@ -289,7 +519,7 @@
                     </div>
                     <h3 class="text-base font-bold text-white mb-1.5">Semakan Kelayakan</h3>
                     <p class="text-xs text-slate-400 leading-relaxed">
-                        Semakan percuma kelayakan pinjaman Bank komersial atau skim kerajaan LPPSA sebelum membuat sebarang keputusan.
+                        Semakan percuma kelayakan pinjaman Bank komersial atau skim kerajaan LPPSA sebelum membuat sebarang komitmen.
                     </p>
                 </div>
 
@@ -303,7 +533,7 @@
                         <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                     </h3>
                     <p class="text-xs text-slate-300 leading-relaxed">
-                        Penyediaan dan semakan dokumen permohonan pinjaman, surat pengesahan jawatan, slip gaji, borang tempahan dan perjanjian awal diurus rapi.
+                        Penyediaan dan semakan dokumen permohonan pinjaman, surat pengesahan jawatan, slip gaji dan borang tempahan diurus teliti.
                     </p>
                 </div>
 
@@ -317,7 +547,7 @@
                         <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                     </h3>
                     <p class="text-xs text-slate-300 leading-relaxed">
-                        Lantikan peguam hartanah bertauliah (guaman) untuk urusan Perjanjian Jual Beli (SPA / S&P), carian hakmilik tanah dan pendaftaran pindah milik sah.
+                        Lantikan peguam hartanah bertauliah (guaman) untuk urusan Perjanjian Jual Beli (SPA / S&P), carian hakmilik dan pendaftaran pindah milik sah.
                     </p>
                 </div>
 
@@ -339,9 +569,9 @@
     <section id="spesifikasi" class="py-16 bg-slate-900 border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-xs font-bold tracking-widest text-emerald-400 uppercase">Spesifikasi Lengkap</h2>
+                <h2 class="text-xs font-bold tracking-widest text-emerald-400 uppercase">Spesifikasi Rasmi Hartanah</h2>
                 <p class="text-2xl sm:text-3xl font-extrabold text-white mt-2">Maklumat & Butiran Terperinci Rumah</p>
-                <p class="text-slate-400 text-sm sm:text-base mt-2">Butiran sahih hartanah untuk rujukan dan perancangan pembelian anda.</p>
+                <p class="text-slate-400 text-sm sm:text-base mt-2">Butiran sahih hartanah No. 21 untuk rujukan dan perancangan pembelian anda.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -350,9 +580,9 @@
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
                     </div>
-                    <h3 class="text-base font-semibold text-white">Jenis Hartanah</h3>
+                    <h3 class="text-base font-semibold text-white">Jenis & Kedudukan Hartanah</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">Rumah Teres 1 Tingkat</p>
-                    <p class="text-xs text-slate-400 mt-2">1-Storey Terraced House dengan reka bentuk moden, pengudaraan lancar serta pencahayaan semula jadi.</p>
+                    <p class="text-xs text-slate-300 mt-2 font-medium">✨ Istimewa: <span class="text-emerald-400">Berhadapan Kawasan Lapang (Facing Open)</span>, memberikan privasi tinggi dan pencahayaan terang.</p>
                 </div>
 
                 <!-- Card 2 -->
@@ -362,7 +592,7 @@
                     </div>
                     <h3 class="text-base font-semibold text-white">Ukuran & Keluasan Tanah</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">1,400 kps (sq.ft)</p>
-                    <p class="text-xs text-slate-400 mt-2">Saiz standard 20' x 70' yang lapang untuk ruang tamu, ruang makan, dapur dan tempat letak kereta.</p>
+                    <p class="text-xs text-slate-400 mt-2">Saiz standard 20' x 70' yang lapang untuk anjung kereta berbumbung, ruang tamu luas, dapur dan laman belakang.</p>
                 </div>
 
                 <!-- Card 3 -->
@@ -372,7 +602,7 @@
                     </div>
                     <h3 class="text-base font-semibold text-white">Susun Atur Bilik</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">3 Bilik Tidur & 2 Bilik Air</p>
-                    <p class="text-xs text-slate-400 mt-2">Susun atur efisien dan praktikal untuk kegunaan seisi keluarga dengan keselesaan maksima.</p>
+                    <p class="text-xs text-slate-400 mt-2">Bilik tidur dengan tingkap berhawa segar, bilik air dengan jubin dinding moden serta sinki berkembar di dapur.</p>
                 </div>
 
                 <!-- Card 4 -->
@@ -382,7 +612,7 @@
                     </div>
                     <h3 class="text-base font-semibold text-white">Pegangan & Baki Pajakan</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">Leasehold (Baki 99 Tahun)</p>
-                    <p class="text-xs text-slate-400 mt-2">Tempoh pajakan baki 99 tahun (Remaining Tenure: 99 Years), menjamin nilai jangka panjang.</p>
+                    <p class="text-xs text-slate-400 mt-2">Maklumat pajakan dinyatakan sebagai baki 99 tahun; sila sahkan tempoh sebenar melalui carian hak milik.</p>
                 </div>
 
                 <!-- Card 5 -->
@@ -390,9 +620,9 @@
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
                     </div>
-                    <h3 class="text-base font-semibold text-white">Hakmilik Tanah</h3>
+                    <h3 class="text-base font-semibold text-white">Hakmilik & Komuniti</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">Non Bumi Lot</p>
-                    <p class="text-xs text-slate-400 mt-2">Terbuka kepada semua warganegara Malaysia (Bumi mahupun Non-Bumi) tanpa sekatan kuota.</p>
+                    <p class="text-xs text-slate-300 mt-2">Terbuka kepada semua warganegara Malaysia tanpa sekatan kuota. Suasana kejiranan komuniti yang mesra dan selamat.</p>
                 </div>
 
                 <!-- Card 6 -->
@@ -400,9 +630,9 @@
                     <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                     </div>
-                    <h3 class="text-base font-semibold text-white">Harga Tawaran</h3>
+                    <h3 class="text-base font-semibold text-white">Harga Jualan Tawaran</h3>
                     <p class="text-xl font-bold text-emerald-400 mt-1">RM 249,000 (Nego)</p>
-                    <p class="text-xs text-slate-400 mt-2">Harga boleh dirunding bagi pembeli serius. Boleh memohon pinjaman penuh 100% jika layak.</p>
+                    <p class="text-xs text-slate-400 mt-2">Harga berpatutan dan boleh dirunding untuk pembeli serius. Skim 100% Full Loan boleh diuruskan.</p>
                 </div>
             </div>
         </div>
@@ -414,7 +644,7 @@
             <div class="text-center mb-10">
                 <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Perancangan Kewangan</span>
                 <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Kalkulator Anggaran Ansuran Bulanan</h2>
-                <p class="text-slate-400 text-sm mt-1">Ketahui anggaran komitmen bulanan anda berdasarkan harga RM249,000.</p>
+                <p class="text-slate-400 text-sm mt-1">Ketahui anggaran komitmen bulanan anda berdasarkan harga tawaran RM249,000.</p>
             </div>
 
             <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl">
@@ -475,7 +705,7 @@
                             RM 1,095
                         </div>
                         <p class="text-xs text-slate-400 mb-4">
-                            Jumlah Pembiayaan: <span class="text-white font-medium" id="displayLoanAmount">RM 224,100</span>
+                            Anggaran pembiayaan: <span class="text-white font-medium" id="displayLoanAmount">RM 224,100</span>
                         </p>
 
                         <div class="space-y-2 text-left text-xs text-slate-400 bg-slate-900/80 p-3 rounded-xl border border-slate-800 mb-5">
@@ -490,7 +720,7 @@
                         </div>
 
                         <a id="btnCheckEligibility" 
-                           href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20sudah%20kira%20kalkulator%20untuk%20Rumah%20Lahat%20Sri%20Wang%20RM249k%20nego.%20Boleh%20tolong%20semak%20kelayakan%20pinjaman%20saya?" 
+                           href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20sudah%20kira%20kalkulator%20untuk%20Rumah%20Lahat%20Sri%20Wang%20RM249k%20nego%20(facing%20open).%20Boleh%20tolong%20semak%20kelayakan%20pinjaman%20saya?" 
                            target="_blank"
                            class="w-full inline-flex justify-center items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-3 px-4 rounded-xl text-sm transition duration-200 shadow-lg shadow-emerald-600/25">
                             Semak Kelayakan Percuma
@@ -508,7 +738,7 @@
             <div class="text-center max-w-3xl mx-auto mb-12">
                 <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Lokasi Sangat Strategik</span>
                 <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Kemudahan Berdekatan & Jaringan Jalan Raya</h2>
-                <p class="text-slate-400 text-sm mt-2">Akses mudah ke Bandar Baru Lahat, Menglembu dan Pengkalan Station 18 Ipoh.</p>
+                <p class="text-slate-400 text-sm mt-2">Akses pantas ke Bandar Baru Lahat, Pekan Menglembu dan Pengkalan Station 18 Ipoh.</p>
             </div>
 
             <!-- Grid Amenities -->
@@ -530,7 +760,7 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            Masjid & Surau Kejiranan
+                            Masjid & Surau Kejiranan Komuniti
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -538,7 +768,7 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            Taman permainan & kawasan riadah
+                            Taman permainan & kawasan lapang beriadah
                         </li>
                     </ul>
                 </div>
@@ -556,7 +786,7 @@
                     <ul class="text-xs sm:text-sm text-slate-300 space-y-2">
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            Pasar Basah / Pasar Menglembu
+                            Pasar Basah / Pasar Awam Menglembu
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -568,7 +798,7 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            Pelbagai restoran, kopitiam & medan selera
+                            Pelbagai restoran, kopitiam & kedai makan
                         </li>
                     </ul>
                 </div>
@@ -582,7 +812,7 @@
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
                     </div>
                     <h3 class="text-base font-bold text-white mb-2">Pengkalan Station 18</h3>
-                    <p class="text-xs text-slate-400 mb-3">Hab hiburan & membeli-belah terkemuka:</p>
+                    <p class="text-xs text-slate-400 mb-3">Hab membeli-belah & perniagaan terkemuka:</p>
                     <ul class="text-xs sm:text-sm text-slate-300 space-y-2">
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
@@ -594,11 +824,11 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            McDonald's Pandu Lalu (Mac D) & Domino's
+                            McDonald's Drive-Thru & Restoran Segera
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            Pusat Perbankan & Deretan Kedai Komersial
+                            Pusat Komersial, Cawangan Bank & Kedai Servis
                         </li>
                     </ul>
                 </div>
@@ -614,14 +844,15 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white">Pandu Terus Ke Hadapan Rumah</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">
-                            Penanda peta telah ditetapkan khas ke alamat spesifik lot ini:
+                            Penanda peta telah ditetapkan khas ke alamat lengkap dan spesifik lot ini:
                         </p>
                         
                         <!-- Exact Address Highlight Card -->
                         <div class="p-3.5 bg-slate-900 rounded-xl border border-emerald-500/30 flex items-start justify-between gap-3">
                             <div class="text-xs text-slate-300">
                                 <span class="text-emerald-400 font-bold block mb-0.5 text-sm">No. 21, Lahat Sri Wang 12</span>
-                                <span>Desa Lahat Sri Wang, 31500 Ipoh, Perak</span>
+                                <span>Desa Lahat Sri Wang, 31500 Ipoh, Perak Darul Ridzuan</span>
+                                <span class="block text-[11px] text-amber-300 mt-1 font-medium">📍 Ciri Khas: Berhadapan Kawasan Lapang</span>
                             </div>
                             <button type="button" 
                                     onclick="copyPropertyAddress(this)" 
@@ -633,14 +864,14 @@
                         
                         <div class="flex flex-wrap gap-3 pt-2">
                             <!-- Waze Button with Exact Address Navigation -->
-                            <a href="https://www.waze.com/ul?q=21+Lahat+Sri+Wang+12+Desa+Lahat+Sri+Wang+31500+Ipoh+Perak&navigate=yes" 
+                            <a href="https://www.waze.com/ul?q=21+Lahat+Sri+Wang+12+Desa+Lahat+Sri+Wang+31500+Ipoh+Perak+Darul+Ridzuan&navigate=yes" 
                                target="_blank"
                                class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-sm font-semibold transition shadow-md">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10c0-5.52-4.48-10-10-10zm-1 15.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v-.07zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
                                 <span>Navigasi Waze (Tepat)</span>
                             </a>
                             <!-- Google Maps Button with Exact Query -->
-                            <a href="https://www.google.com/maps/search/?api=1&query=21,+Lahat+Sri+Wang+12,+Desa+Lahat+Sri+Wang,+31500+Ipoh,+Perak" 
+                            <a href="https://www.google.com/maps/search/?api=1&query=21,+Lahat+Sri+Wang+12,+Desa+Lahat+Sri+Wang,+31500+Ipoh,+Perak+Darul+Ridzuan" 
                                target="_blank"
                                class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 text-sm font-semibold transition">
                                 <svg class="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
@@ -653,7 +884,7 @@
                     <div class="lg:col-span-7 rounded-2xl overflow-hidden border border-emerald-500/30 shadow-2xl h-80 sm:h-96 bg-slate-900 relative">
                         <div class="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-700 text-[11px] text-white flex items-center gap-1.5 shadow">
                             <span class="w-2 h-2 rounded-full bg-red-500"></span>
-                            <span>Pin: <strong>21, Lahat Sri Wang 12</strong></span>
+                            <span>Pin Lokasi: <strong>21, Lahat Sri Wang 12 (Facing Open)</strong></span>
                         </div>
                         <iframe 
                             title="Peta Lokasi Tepat 21 Lahat Sri Wang 12"
@@ -661,7 +892,7 @@
                             loading="lazy" 
                             allowfullscreen 
                             referrerpolicy="no-referrer-when-downgrade"
-                            src="https://maps.google.com/maps?q=21,+Lahat+Sri+Wang+12,+Desa+Lahat+Sri+Wang,+31500+Ipoh,+Perak&t=&z=17&ie=UTF8&iwloc=B&output=embed">
+                            src="https://maps.google.com/maps?q=21,+Lahat+Sri+Wang+12,+Desa+Lahat+Sri+Wang,+31500+Ipoh,+Perak+Darul+Ridzuan&t=&z=17&ie=UTF8&iwloc=B&output=embed">
                         </iframe>
                     </div>
                 </div>
@@ -682,58 +913,58 @@
                 <!-- FAQ Item 1 -->
                 <div class="border border-slate-800 bg-slate-900 rounded-2xl p-5 transition">
                     <button class="w-full flex justify-between items-center text-left text-base font-bold text-white focus:outline-none" onclick="toggleFaq(this)">
-                        <span>Adakah unit ini terhad kepada pembeli tertentu?</span>
+                        <span>Apakah kelebihan 'berhadapan kawasan lapang' bagi unit ini?</span>
                         <svg class="w-5 h-5 text-emerald-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
                     <div class="mt-3 text-slate-300 text-sm leading-relaxed hidden">
-                        Tidak, unit ini adalah <strong>Non Bumi Lot</strong> dengan baki pajakan 99 tahun. Semua warganegara Malaysia (Bumi mahupun Bukan Bumi) layak membelinya.
+                        Unit No. 21 ini tidak berhadapan terus dengan rumah lain di seberang jalan. Ini memberikan kelebihan privasi yang jauh lebih baik, pengudaraan rumah yang lebih segar dan lapang, serta kemudahan meletak kenderaan tambahan tanpa berselisih atau menyekat pintu masuk jiran.
                     </div>
                 </div>
 
                 <!-- FAQ Item 2 -->
                 <div class="border border-slate-800 bg-slate-900 rounded-2xl p-5 transition">
                     <button class="w-full flex justify-between items-center text-left text-base font-bold text-white focus:outline-none" onclick="toggleFaq(this)">
-                        <span>Adakah harga RM249k masih boleh dirunding (nego)?</span>
+                        <span>Bagaimanakah keadaan komuniti dan kejiranan di sini?</span>
                         <svg class="w-5 h-5 text-emerald-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
                     <div class="mt-3 text-slate-300 text-sm leading-relaxed hidden">
-                        Ya, harga tawaran RM249,000 adalah boleh dirunding (*negotiable*) untuk pembeli yang serius selepas sesi lawatan tapak (*viewing*).
+                        Sekolah, masjid dan beberapa kemudahan harian berada di sekitar Bandar Baru Lahat. Anda dialu-alukan untuk datang dan merasai sendiri suasana kejiranan yang harmoni di sini apabila anda berkelapangan.
                     </div>
                 </div>
 
                 <!-- FAQ Item 3 -->
                 <div class="border border-slate-800 bg-slate-900 rounded-2xl p-5 transition">
                     <button class="w-full flex justify-between items-center text-left text-base font-bold text-white focus:outline-none" onclick="toggleFaq(this)">
-                        <span>Bolehkah saya memohon pinjaman penuh (100% Full Loan)?</span>
+                        <span>Adakah unit ini terhad kepada pembeli tertentu?</span>
                         <svg class="w-5 h-5 text-emerald-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
                     <div class="mt-3 text-slate-300 text-sm leading-relaxed hidden">
-                        Boleh. Bagi pembeli rumah pertama melalui skim SJKP / skim rumah pertama bank atau pinjaman LPPSA untuk kakitangan awam, permohonan 100% margin pembiayaan boleh diuruskan.
+                        Tidak, unit ini adalah <strong>Non Bumi Lot</strong> dengan baki pajakan 99 tahun. Kelayakan pembelian tertakluk pada status hak milik, syarat pihak berkuasa berkaitan dan kelulusan pembiayaan. Sila sahkan perkara ini sebelum membuat komitmen.
                     </div>
                 </div>
 
                 <!-- FAQ Item 4 -->
                 <div class="border border-slate-800 bg-slate-900 rounded-2xl p-5 transition">
                     <button class="w-full flex justify-between items-center text-left text-base font-bold text-white focus:outline-none" onclick="toggleFaq(this)">
-                        <span>Berapakah anggaran gaji bersih yang diperlukan?</span>
+                        <span>Adakah harga RM249k masih boleh dirunding (nego)?</span>
                         <svg class="w-5 h-5 text-emerald-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
                     <div class="mt-3 text-slate-300 text-sm leading-relaxed hidden">
-                        Dengan anggaran ansuran bulanan sekitar RM1,095 sebulan, anggaran gaji bersih isi rumah RM2,400 ke atas sudah layak dipertimbangkan (tertakluk kepada komitmen semasa). Permohonan gabungan (*joint loan*) suami isteri dialu-alukan.
+                        Ya, harga tawaran RM249,000 ini adalah rasional dan masih boleh dirunding (*negotiable*) bagi pembeli yang benar-benar berminat.
                     </div>
                 </div>
 
-                <!-- FAQ Item 5 (Dokumentasi & Guaman) -->
+                <!-- FAQ Item 5 -->
                 <div class="border border-emerald-500/40 bg-slate-900/90 rounded-2xl p-5 transition shadow-md">
                     <button class="w-full flex justify-between items-center text-left text-base font-bold text-white focus:outline-none" onclick="toggleFaq(this)">
                         <span class="flex items-center gap-2">
                             <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                            Bagaimanakah dengan urusan dokumentasi, pinjaman dan peguam (guaman)?
+                            Bagaimanakah urusan pinjaman (loan), dokumentasi dan khidmat guaman diuruskan?
                         </span>
                         <svg class="w-5 h-5 text-emerald-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </button>
                     <div class="mt-3 text-slate-300 text-sm leading-relaxed hidden">
-                        <strong>Semua urusan dokumentasi dan guaman akan diuruskan sepenuhnya dari A hingga Z.</strong> Kami bekerjasama rapat dengan panel peguam hartanah berdaftar serta pegawai bank/LPPSA bagi memudahkan proses penyediaan Perjanjian Jual Beli (S&P / SPA), carian hakmilik, penyata gadaian, dan pendaftaran nama di Pejabat Tanah. Anda hanya perlu menyediakan dokumen peribadi asas, selebihnya diuruskan tanpa pening kepala.
+                        <strong>Semua urusan dokumentasi dan guaman akan diuruskan sepenuhnya dari A hingga Z.</strong> Kami bekerjasama rapat dengan panel peguam hartanah berdaftar serta pegawai pembiayaan Bank/LPPSA bagi memudahkan proses penyediaan Perjanjian Jual Beli (SPA / S&P), carian hakmilik, dan pendaftaran pindah milik sah di Pejabat Tanah Perak.
                     </div>
                 </div>
             </div>
@@ -751,44 +982,42 @@
                     </div>
 
                     <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
-                        Berminat Untuk Lawatan Tapak?
+                        Langkah Seterusnya Menuju Kediaman Idaman Anda
                     </h2>
                     <p class="text-slate-300 text-sm sm:text-base">
-                        Peluang memiliki rumah teres 1 tingkat (1,400 kps) di Desa Seri Wang Lahat pada harga RM249,000 (Nego). Hubungi perunding hartanah rasmi anda sekarang.
+                        Peluang memiliki rumah teres 1 tingkat (1,400 kps) berhadapan kawasan lapang di Desa Seri Wang Lahat pada harga RM249,000 (Nego). Hubungi Azrul untuk sebarang pertanyaan, semakan kelayakan, atau jika anda ingin melihat rumah ini dengan lebih dekat.
                     </p>
 
-                    <!-- Agent Profile Card dengan Foto Korporat -->
+                    <!-- Profile Card -->
                     <div class="py-6 flex flex-col sm:flex-row items-center justify-center gap-5 border-y border-slate-800 my-6">
                         <div class="relative shrink-0">
-                            <!-- [RUANGAN FOTO PROFIL EJEN] -->
+                            <!-- [RUANGAN FOTO PROFIL] -->
                             <img src="CorporatePhoto.jpg" 
-                                 alt="En Azrul - Perunding Hartanah" 
+                                 alt="Azrul" 
+                                 title="Hubungi Azrul"
                                  class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover object-top shadow-xl ring-2 ring-emerald-500/50 shadow-emerald-950/50"
                                  onerror="this.onerror=null; this.src='https://placehold.co/150x150/1e293b/10b981?text=Azrul';">
-                            <!-- Lencana Terverifikasi (Verified Badge) -->
-                            <div class="absolute -bottom-1 -right-1 bg-emerald-500 text-white rounded-full p-1 shadow-md ring-2 ring-slate-900" title="Perunding Sah Berdaftar">
+                            <div class="absolute -bottom-1 -right-1 bg-emerald-500 text-white rounded-full p-1 shadow-md ring-2 ring-slate-900">
                                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
                                 </svg>
                             </div>
                         </div>
                         <div class="text-center sm:text-left">
-                            <span class="text-xs uppercase tracking-wider text-emerald-400 font-semibold block">Perunding Hartanah Anda</span>
+                            <span class="text-xs uppercase tracking-wider text-emerald-400 font-semibold block">Hubungi</span>
                             <h4 class="text-xl sm:text-2xl font-bold text-white mt-0.5">Azrul</h4>
-                            <p class="text-sm text-slate-400">Ejen Hartanah KL, Selangor, Perak, Pahang & Terengganu</p>
-                            <span class="inline-flex items-center gap-1.5 text-xs text-emerald-300 mt-1 font-medium bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
-                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                                Urusan Loan, Dokumentasi & Guaman Diuruskan A-Z
-                            </span>
+                            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mt-1.5">
+                                <span class="inline-flex items-center gap-1.5 text-xs text-emerald-300 font-medium bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                    Urusan Loan, Dokumentasi & Guaman Diuruskan A-Z
+                                </span>
+                            </div>
                         </div>
-                        <div class="sm:ml-4 flex flex-col items-center sm:items-end">
-                            <a href="tel:0192704437" class="text-lg sm:text-xl font-extrabold text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                                </svg>
-                                <span>019-2704437</span>
+                        <div class="sm:ml-4 flex flex-col items-center sm:items-end space-y-1">
+                            <a href="tel:0192704437" class="text-base sm:text-lg font-extrabold text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                                <span>Azrul: 019-2704437</span>
                             </a>
-                            <span class="text-[11px] text-slate-400 mt-0.5">Hubungi terus atau WhatsApp</span>
                         </div>
                     </div>
 
@@ -820,15 +1049,29 @@
     <!-- Corporate Footer -->
     <footer class="bg-slate-950 border-t border-slate-900 py-10 text-slate-500 text-xs text-center">
         <div class="max-w-7xl mx-auto px-4 space-y-3">
-            <p class="font-medium text-slate-400">Iklan Hartanah: Rumah Teres 1 Tingkat, 21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak</p>
-            <p>Harga Tawaran: RM 249,000 (Nego) • Non Bumi Lot • Pajakan (Baki 99 Tahun) • Keluasan: 1,400 kps (3 Bilik, 2 Bilik Air)</p>
-            <p class="text-emerald-400/90 font-medium">Bantuan Pinjaman Bank / LPPSA, Urusan Dokumentasi & Khidmat Guaman Diuruskan Sepenuhnya</p>
-            <p class="pt-2 text-slate-600">© 2026 Hak Cipta Terpelihara. Disediakan oleh Digital Experience Architect.</p>
+            <p class="font-medium text-slate-300">Iklan Hartanah Sah: Rumah Teres 1 Tingkat, 21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak Darul Ridzuan</p>
+            <p>Harga tawaran RM249,000 (boleh dirunding) • Non-Bumi Lot • Pajakan (maklumat baki 99 tahun perlu disahkan) • Tanah 1,400 kps • 3 bilik tidur • 2 bilik air</p>
+            <p class="text-slate-600">*Anggaran ansuran bukan tawaran pinjaman. Kadar, tempoh, kelayakan dan jumlah pembiayaan tertakluk kepada penilaian institusi kewangan.</p>
+            <p class="text-emerald-400 font-medium">Bantuan maklumat awal pembiayaan Bank / LPPSA dan proses pembelian tertakluk kepada semakan</p>
+            <p class="pt-2 text-slate-600">© 2026 Hak Cipta Terpelihara. Azrul • 019-2704437.</p>
         </div>
     </footer>
 
+    <!-- Fullscreen Lightbox Modal for Photo Gallery -->
+    <div id="imageLightbox" class="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md hidden flex flex-col items-center justify-center p-4">
+        <button type="button" onclick="closeLightbox()" class="absolute top-5 right-5 p-2 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <div class="max-w-4xl w-full text-center space-y-3">
+            <div class="max-h-[75vh] flex items-center justify-center overflow-hidden rounded-2xl bg-black border border-slate-800">
+                <img id="lightboxImg" src="" alt="Pratonton Penuh" class="max-h-[75vh] w-auto object-contain">
+            </div>
+            <p id="lightboxCaption" class="text-sm sm:text-base font-semibold text-slate-200"></p>
+        </div>
+    </div>
+
     <!-- Sticky Mobile CTA Floating Bar -->
-    <div class="fixed bottom-0 inset-x-0 z-50 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 p-3 flex items-center justify-between gap-3 md:hidden">
+    <div class="fixed bottom-0 inset-x-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 p-3 flex items-center justify-between gap-3 md:hidden">
         <div>
             <span class="text-[10px] uppercase tracking-wider text-slate-400 block font-semibold">Harga Jualan (Nego)</span>
             <span class="text-base font-extrabold text-emerald-400">RM 249,000</span>
@@ -837,7 +1080,7 @@
             <a href="tel:0192704437" class="p-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl border border-slate-700">
                 <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             </a>
-            <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20berminat%20dengan%20Rumah%201%20Tingkat%20Desa%20Lahat%20Sri%20Wang%20RM249k%20nego." 
+            <a href="https://wa.me/60192704437?text=Salam%20En%20Azrul,%20saya%20berminat%20dengan%20Rumah%201%20Tingkat%20No%2021%20Desa%20Lahat%20Sri%20Wang%20RM249k%20nego%20(Facing%20Open)." 
                target="_blank"
                class="inline-flex items-center gap-2 bg-emerald-600 text-white text-xs font-bold py-2.5 px-4 rounded-xl shadow-lg">
                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.976.533 2.023.824 3.149.824 3.182 0 5.768-2.587 5.768-5.766.001-3.187-2.575-5.666-5.768-5.666zm8.172 5.766c-.004 4.512-3.673 8.18-8.174 8.18-1.42 0-2.766-.364-3.945-1.006l-4.407 1.157 1.178-4.298c-.73-1.246-1.144-2.695-1.145-4.233.004-4.513 3.673-8.181 8.175-8.181 4.512 0 8.179 3.668 8.179 8.181z"/></svg>
@@ -898,7 +1141,7 @@
 
             // Update WhatsApp prefill text for loan check button
             const message = encodeURIComponent(
-                `Salam En Azrul, saya berminat dengan Rumah 1 Tingkat Desa Lahat Sri Wang (RM249k nego). Berdasarkan kalkulator: Deposit ${depPercent}%, Pembiayaan ${formatCurrency(loanAmount)} untuk tempoh ${tenureYears} tahun (anggaran ansuran bulanan ${displayInstallment.innerText}). Boleh tolong semak kelayakan saya?`
+                `Salam En Azrul, saya berminat dengan Rumah 1 Tingkat No 21 Desa Lahat Sri Wang (RM249k nego, Facing Open). Berdasarkan kalkulator: Deposit ${depPercent}%, Pembiayaan ${formatCurrency(loanAmount)} untuk tempoh ${tenureYears} tahun (anggaran ansuran bulanan ${displayInstallment.innerText}). Boleh tolong semak kelayakan saya?`
             );
             btnCheckEligibility.href = `https://wa.me/60192704437?text=${message}`;
         }
@@ -929,7 +1172,7 @@
         function sendCustomWhatsApp() {
             const name = document.getElementById('custName').value.trim() || 'Pembeli';
             const job = document.getElementById('custJob').value;
-            const fullText = `Salam En Azrul, nama saya ${name}. Saya berminat dengan rumah teres 1 tingkat di 21, Lahat Sri Wang 12, Desa Lahat Sri Wang (RM249,000 Nego). Sektor pekerjaan: ${job}. Bila masa lapang untuk sesi viewing atau semakan dokumen?`;
+            const fullText = `Salam En Azrul, nama saya ${name}. Saya berminat dengan rumah teres 1 tingkat di 21, Lahat Sri Wang 12, Desa Lahat Sri Wang, Perak (RM249,000 Nego, Menghadap Kawasan Lapang). Sektor pekerjaan saya: ${job}. Boleh bantu saya untuk dapatkan maklumat lanjut dan buat semakan kelayakan pinjaman?`;
             
             const url = `https://wa.me/60192704437?text=${encodeURIComponent(fullText)}`;
             window.open(url, '_blank');
@@ -937,7 +1180,7 @@
 
         // Copy Exact Address Function
         function copyPropertyAddress(btn) {
-            const addressText = "21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak";
+            const addressText = "21, Lahat Sri Wang 12, Desa Lahat Sri Wang, 31500 Ipoh, Perak Darul Ridzuan";
             const tempInput = document.createElement("input");
             tempInput.value = addressText;
             document.body.appendChild(tempInput);
@@ -954,7 +1197,7 @@
             }
         }
 
-        // Image Switcher Logic
+        // Hero Image Switcher Logic
         function switchHouseImage(src, badgeText, btnElement) {
             const mainImg = document.getElementById('mainHouseImage');
             const badge = document.getElementById('imageBadgeText');
@@ -966,25 +1209,58 @@
                 mainImg.style.opacity = '1';
             }, 150);
 
-            // Toggle active styling on thumbnail buttons
-            document.querySelectorAll('.thumb-btn').forEach(btn => {
+            document.querySelectorAll('.hero-thumb').forEach(btn => {
                 btn.classList.remove('border-emerald-500');
                 btn.classList.add('border-slate-800');
-                const title = btn.querySelector('p');
-                if (title) {
-                    title.classList.remove('text-emerald-300');
-                    title.classList.add('text-slate-200');
-                }
             });
 
             btnElement.classList.remove('border-slate-800');
             btnElement.classList.add('border-emerald-500');
-            const activeTitle = btnElement.querySelector('p');
-            if (activeTitle) {
-                activeTitle.classList.remove('text-slate-200');
-                activeTitle.classList.add('text-emerald-300');
-            }
         }
+
+        // Filter Gallery Logic
+        function filterGallery(category, tabBtn) {
+            document.querySelectorAll('.gallery-tab-btn').forEach(btn => {
+                btn.classList.remove('bg-emerald-600', 'text-white', 'active');
+                btn.classList.add('bg-slate-900', 'text-slate-300', 'border', 'border-slate-800');
+            });
+            tabBtn.classList.remove('bg-slate-900', 'text-slate-300', 'border', 'border-slate-800');
+            tabBtn.classList.add('bg-emerald-600', 'text-white', 'active');
+
+            const items = document.querySelectorAll('.gallery-item');
+            items.forEach(item => {
+                if (category === 'semua' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Lightbox Modal Functions
+        function openLightbox(src, caption) {
+            const modal = document.getElementById('imageLightbox');
+            const img = document.getElementById('lightboxImg');
+            const cap = document.getElementById('lightboxCaption');
+            
+            img.src = src;
+            cap.innerText = caption;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('imageLightbox');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on click outside image
+        document.getElementById('imageLightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
     </script>
 </body>
 </html>
